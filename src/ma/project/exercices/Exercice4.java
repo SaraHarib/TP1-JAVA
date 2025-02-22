@@ -36,16 +36,11 @@ public class Exercice4 {
 				s[i] += tab[i][j];
 			}
 		}
-		int m = 0;
-		for (int i = 0; i < L; i++) {
-			for (int j = 0; j < L; j++) {
-				if (s[i] > s[j]) {
-					m = i;
-				} else {
-					m = j;
-				}
-			}
-
+		int m = 0; 
+		for (int i = 1; i < L; i++) {
+		    if (s[i] > s[m]) {
+		        m = i;
+		    }
 		}
 		System.out.println();
 		for (int i = 0; i < C; i++) {
