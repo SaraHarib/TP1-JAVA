@@ -24,7 +24,7 @@ public class Exercice5 {
 		}
 
 		if (L != C) {
-			System.out.println("C'est pas bidimensionnel");
+			System.out.println("Ce n'est pas une matrice carrée");
 		} else {
 			int m = 1;
 			for (int i = 0; i < L; i++) {
